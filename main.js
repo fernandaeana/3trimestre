@@ -34,4 +34,15 @@ function tocaSomTom(){
      document.querySelector('#som_tecla_tom').play();
      document.querySelector('.tecla_tom').onclick = tocaSomTom;}
      document.querySelectorAll('.tecla');
+     const listaDeTeclas = document.querySelectorAll('.tecla');
+     
+listaDeTeclas[0].onclick = tocaSomPom;
+listaDeTeclas[0].onclick = tocaSomClap;
+listaDeTeclas[0].onclick = tocaSomTim;
+listaDeTeclas[0].onclick = tocaSomPuff;
+listaDeTeclas[0].onclick = tocaSomSplash;
+listaDeTeclas[0].onclick = tocaSomToim;
+listaDeTeclas[0].onclick = tocaSomPsh;
+listaDeTeclas[0].onclick = tocaSomTic;
+listaDeTeclas[0].onclick = tocaSomTom;
 
